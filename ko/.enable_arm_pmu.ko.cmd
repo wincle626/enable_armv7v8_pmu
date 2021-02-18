@@ -1,1 +1,0 @@
-cmd_/root/enpower/perf/userspacemodule/enable_arm_pmu/ko/enable_arm_pmu.ko := ld -EL -r  -T /lib/modules/3.10.92-76/build/scripts/module-common.lds --build-id  -o /root/enpower/perf/userspacemodule/enable_arm_pmu/ko/enable_arm_pmu.ko /root/enpower/perf/userspacemodule/enable_arm_pmu/ko/enable_arm_pmu.o /root/enpower/perf/userspacemodule/enable_arm_pmu/ko/enable_arm_pmu.mod.o
