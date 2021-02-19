@@ -1,0 +1,1 @@
+cmd_/home/udrc/perfmon/lkm/armv8/ko/enable_arm_pmu.ko := ld -r  -EL  -maarch64elf -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds  --build-id  -o /home/udrc/perfmon/lkm/armv8/ko/enable_arm_pmu.ko /home/udrc/perfmon/lkm/armv8/ko/enable_arm_pmu.o /home/udrc/perfmon/lkm/armv8/ko/enable_arm_pmu.mod.o ;  true
